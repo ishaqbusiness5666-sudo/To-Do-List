@@ -40,7 +40,7 @@ lt.from("main button", {
 });
 lt.from("main ul ", {
     transform: "scale(20)",
-    x: -10000,
+    x: -700,
     opacity: 0,
     duration: 0.5,
 });
