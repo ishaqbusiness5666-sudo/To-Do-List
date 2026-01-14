@@ -205,9 +205,10 @@ const logo = document.getElementById('logo');
 let isOpen = false;
 
 navIcon.addEventListener('click', (e) => {
-     let mobileNav=gsap.timeline();
+    navLinks.classList.toggle('active');
+    logo.classList.toggle('Nodisplay');
     if (!isOpen) {
-        mobileNav.from("nav button", {
+        gsap.from("nav button", {
             scale: 0,
             y: -50,
             duration: 0.5,
@@ -218,8 +219,6 @@ navIcon.addEventListener('click', (e) => {
         isOpen = true;
     }
     else {
-        mobileNav.reverse();
         isOpen = false;
     }
 });
-
