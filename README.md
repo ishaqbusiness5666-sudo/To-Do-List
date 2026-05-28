@@ -75,8 +75,7 @@ This project was created to improve frontend development skills and practice wor
 ---
 
 # 📸 Preview
-
-Add screenshots of your website here.
+<img width="309" height="557" alt="Do-List" src="https://github.com/user-attachments/assets/15b93780-b526-4cf9-941d-38b76693eadb" />
 
 ---
 
