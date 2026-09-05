@@ -43,7 +43,8 @@ project-folder/
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
+├──gsap.js
+└── README.md
 ```
 
 ---
